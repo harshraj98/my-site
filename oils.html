@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Oils Webpage</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 20px;
+        }
+
+        h1 {
+            color: #333;
+            text-align: center;
+        }
+
+        .product-card {
+            background-color: #f4f4f4;
+            border-radius: 8px;
+            padding: 20px;
+            margin-bottom: 20px;
+        }
+
+        .product-card img {
+            width: 100%;
+            max-width: 200px;
+            display: block;
+            margin: 0 auto;
+            border-radius: 4px;
+        }
+
+        .product-card h2 {
+            color: #555;
+            text-align: center;
+            margin-top: 10px;
+        }
+
+        .product-card p {
+            color: #777;
+            text-align: justify;
+            margin-top: 10px;
+        }
+    </style>
+    <script>
+        function addToCart(productName) {
+            alert('Added ' + productName + ' to the cart!');
+        }
+    </script>
+</head>
+
+<body>
+    <h1>Oils</h1>
+
+    <div class="product-card">
+        <img src="img/coconut.jpg">
+        <h2>Coconut Oil</h2>
+        <p>Our organic coconut oil is rich in nutrients and can be used for cooking, skincare, and hair care.</p>
+        <button onclick="addToCart('Coconut Oil')">Add to Cart</button>
+    </div>
+
+    <div class="product-card">
+        <img src="img/olive.jpg">
+        <h2>Olive Oil</h2>
+        <p>Our extra virgin olive oil is sourced from the finest olives, perfect for culinary delights and salads.</p>
+        <button onclick="addToCart('Olive Oil')">Add to Cart</button>
+    </div>
+
+    <div class="product-card">
+        <img src="img/single.jpg">
+        <h2>Mashal oil</h2>
+        <p>Its a cooking and sometimes it's also using for baby care.</p>
+        <button onclick="addToCart('mashal oil')">Add to Cart</button>
+    </div>
+</body>
+
+</html>

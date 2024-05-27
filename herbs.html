@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Herbs Webpage</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 20px;
+        }
+
+        h1 {
+            color: #333;
+            text-align: center;
+        }
+
+        .herb-card {
+            background-color: #f4f4f4;
+            border-radius: 8px;
+            padding: 20px;
+            margin-bottom: 20px;
+        }
+
+        .herb-card img {
+            width: 100%;
+            max-width: 200px;
+            display: block;
+            margin: 0 auto;
+            border-radius: 4px;
+        }
+
+        .herb-card h2 {
+            color: #555;
+            text-align: center;
+            margin-top: 10px;
+        }
+
+        .herb-card p {
+            color: #777;
+            text-align: justify;
+            margin-top: 10px;
+        }
+    </style>
+    <script>
+        function addToCart(productName) {
+            alert('Added ' + productName + ' to the cart!');
+        }
+    </script>
+</head>
+
+<body>
+    <h1>Herbs</h1>
+
+    <div class="herb-card">
+        <img src="img/rodemary.jpg">
+        <h2>Rosemary</h2>
+        <p>Rosemary is a fragrant evergreen herb native to the Mediterranean region.</p>
+        <button onclick="addToCart('Rosemary')">Add to Cart</button>
+    </div>
+
+    <div class="herb-card">
+        <img src="img/basil.jpg">
+        <h2>Basil</h2>
+        <p>Basil is a culinary herb that adds a fresh and aromatic flavor to various dishes.</p>
+        <button onclick="addToCart('basil')">Add to Cart</button>
+    </div>
+
+    <div class="herb-card">
+        <img src=img/mint.jpg>
+        <h2>Mint</h2>
+        <p>Mint is a popular herb known for its refreshing taste and its use in teas and desserts.</p>
+        <button onclick="addToCart('mint')">Add to Cart</button>
+    </div>
+</body>
+
+</html>

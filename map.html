@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Map Webpage</title>
+    <style>
+        body {
+            background-image: url('background.jpg');
+            background-size: cover;
+            margin: 0;
+            padding: 0;
+            background-color: ;
+        }
+
+        #map-container {
+            width: 800px;
+            height: 600px;
+            margin: 0 auto;
+        }
+
+        iframe {
+            background-color: rgba(0, 0, 0, 0.5);
+        }
+    </style>
+    <script>
+        function openGoogleMaps() {
+            window.open('https://www.google.com/maps', '_blank');
+        }
+    </script>
+</head>
+
+<body>
+    <h1>MAP</h1>
+    <h1 style="color: #fff;">Map</h1>
+    <div id="map-container" onclick="openGoogleMaps()">
+        <iframe
+            src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d373.0784225342251!2d85.11675501842821!3d26.35691891481965!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39ecd92ebc412f91%3A0xc341038389846590!2sSantosh!5e0!3m2!1sen!2sin!4v1688596454388!5m2!1sen!2sin"
+            width="800" height="600" style="border:0;" allowfullscreen="" loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+</body>
+
+</html>
